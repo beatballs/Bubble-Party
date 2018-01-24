@@ -52,6 +52,7 @@ h1 {
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
+   
 }
 
 h2 {
@@ -84,6 +85,8 @@ h5 {
 p {
     color: #959094;
 }
+
+
 
 p.lead {
     color: #e38cb7;
@@ -172,6 +175,7 @@ p.lead {
 @media (max-width:767px) {
     h1 {
         font-size: 40px;
+        
     }
     h2 {
         font-size: 30px;
@@ -183,7 +187,7 @@ p.lead {
 ----------------------*/
 
 .nav-menu {
-    padding: 1rem 0;
+    padding: 0;
     transition: all 0.3s ease;
 }
 
@@ -262,7 +266,7 @@ header {
     color: #ffb8f6;
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     
 }
 
@@ -275,15 +279,15 @@ header {
 
 .rocket {
   
-    max-width: 30%;
+    max-width: 50%;
    max-height: 10%;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
      overflow: hidden;
 }
 
 .navbar-toggler{
-   right:0;
+   right:4%;
     position:fixed;
     
 }

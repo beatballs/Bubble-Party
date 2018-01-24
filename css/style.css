@@ -276,13 +276,17 @@ header {
 .rocket {
   
     max-width: 30%;
-   max-height: 100%;
-    padding-top: 5%;
+   max-height: 10%;
+    padding-top: 10%;
     padding-bottom: 5%;
      overflow: hidden;
-    
 }
 
+.navbar-toggler{
+   right:0;
+    position:fixed;
+    
+}
 
 /* FEATURES
 ----------------------*/

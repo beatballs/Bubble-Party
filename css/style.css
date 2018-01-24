@@ -133,6 +133,7 @@ p.lead {
     color: #FFF;
 }
 
+
 .btn-light {
     border-radius: 3px;
     background: #FFF;
@@ -272,7 +273,15 @@ header {
     overflow: hidden;
 }
 
-
+.rocket {
+  
+    max-width: 30%;
+   max-height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+     overflow: hidden;
+    
+}
 
 
 /* FEATURES

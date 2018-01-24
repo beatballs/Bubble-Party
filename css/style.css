@@ -272,14 +272,13 @@ header {
     overflow: hidden;
 }
 
-.rocket {
+.rocket0 {
   
     max-width: 100%;
-   max-height: auto;
+   max-height: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
-    
-    
+     overflow: hidden;
     
 }
 

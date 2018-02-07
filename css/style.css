@@ -86,7 +86,9 @@ p {
     color: #959094;
 }
 
-
+li {
+    color: #959094;
+}
 
 p.lead {
     color: #e38cb7;
@@ -399,7 +401,7 @@ header {
 }
 
 .perspective-phone {
-    position: relative;
+    position:inherit;
     z-index: -1;
 }
 

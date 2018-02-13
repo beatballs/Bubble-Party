@@ -268,7 +268,7 @@ header {
     background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
 .tagline {
@@ -709,3 +709,12 @@ header {
     }
 }
 
+.contact-background{
+  
+background:url(../images/map.png) center no-repeat  ;
+    background-size: 100%;
+}
+footer {
+    padding-bottom: 0.1%;
+    padding-top: 1%;
+   }

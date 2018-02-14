@@ -72,6 +72,24 @@ h4 {
     font-size: 20px;
     font-weight: 500;
     color: #633991;
+    position: relative;
+    text-decoration: none;
+}
+
+h4:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 3px solid #d6619c;
+  transition: .4s;
+}
+
+h4:hover:after {
+  width: 70%;
+    
+    
 }
 
 h5 {
@@ -561,7 +579,7 @@ header {
 }
 
 .card.pricing {
-    border: 1px solid #f1eef1;
+    border: 2px solid #f1eef1;
 }
 
 .card.pricing:hover{

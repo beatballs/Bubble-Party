@@ -336,10 +336,12 @@ header {
 }
 
 .card.features {
+    
     border: 0;
     border-radius: 3px;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
+    
 }
 
 @media (max-width:991px) {
@@ -347,8 +349,8 @@ header {
         margin-bottom: 2rem;
     }
     
-    .card.features {
-        width: 100vw;
+    .break {
+        word-break:break-all;
     }
     [class^="col-"]:last-child .card.features {
         margin-bottom: 0;
@@ -370,6 +372,8 @@ header {
 
 .card-text {
     font-size: 14px;
+  
+  
 }
 
 .card.features:hover {
@@ -491,13 +495,26 @@ header {
 
 /*  TESTIMONIALS
 ----------------------*/
-
 .owl-carousel .owl-item img.client-img {
     width: 110px;
     margin: 30px auto;
     border-radius: 50%;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
+.testimonials.owl-carousel  {
+  
+    margin-bottom: -8%;
+   
+}
+
+@media (max-width:992px) {
+   .testimonials.owl-carousel  {
+  
+    margin-bottom: -25%;
+   
+}
+}
+
 
 .testimonials-single {
     text-align: center;

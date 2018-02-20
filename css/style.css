@@ -346,6 +346,10 @@ header {
     .card.features {
         margin-bottom: 2rem;
     }
+    
+    .card.features {
+        width: 100vw;
+    }
     [class^="col-"]:last-child .card.features {
         margin-bottom: 0;
     }

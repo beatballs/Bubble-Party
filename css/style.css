@@ -914,7 +914,7 @@ button {
   border: none;
   outline: none;
     align-self: center;
-  margin: 1vmax;
+  margin-top: 2vmax;
 }
 
 button:hover small {

@@ -790,7 +790,7 @@ input {
   outline: none;
   border-radius: 0;
   text-align: center;
-  background: none;
+  background: transparent;
   font-weight: 700;
   font-family: 'Lato', georgia;
   font-size: 25px;

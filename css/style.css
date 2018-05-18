@@ -784,6 +784,24 @@ label {
   cursor: pointer;
 }
 
+laberl,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: transparent;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
 textarea,
 input {
   border: none;

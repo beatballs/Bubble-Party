@@ -772,7 +772,7 @@ p1 {
 
 
 #contact-form {
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
      text-align: center;
   font-weight: 300;
@@ -807,7 +807,7 @@ textarea {
   /* overflow:hidden; */
   
   resize: none;
-  width: 100%;
+  width: 90%;
   border-color: rgba(255, 255, 255, 0);
 }
 
